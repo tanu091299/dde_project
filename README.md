@@ -35,8 +35,6 @@ dde_project/
 └── README.md
 ```
 
-## 🗂️ Installation, Usage, Dataset, and Tech Stack
-
 ### Installation
 
 Clone the repository and install dependencies:
@@ -53,33 +51,41 @@ Run the main application:
 ```
 python vibe_coding.py
 ```
-
-Dataset
+## 📊 Dataset
 
 The project uses:
 
-romania_hgfs.xlsx for company-level data on Romanian high-growth firms
-NUTS_RG_20M_2021_4326_LEVL_2.geojson for regional geographic boundary data
+- `romania_hgfs.xlsx` for company-level data on Romanian high-growth firms
+- `NUTS_RG_20M_2021_4326_LEVL_2.geojson` for regional geographic boundary data
 
 Together, these files support both business analysis and map-based exploration.
 
-Tech Stack
-Python
-Pandas
-GeoJSON / geospatial data
-Excel dataset
-Data analytics and visualization workflow
+---
 
-💡 Use Cases
-Regional market research
-High-growth firm analysis
-Geographic business intelligence
-Startup ecosystem exploration
-Interactive company and region-based data analysis
+## 🛠️ Tech Stack
 
-🔮 Future Improvements
-Add interactive dashboard support
-Improve regional filtering and drill-down analysis
-Add richer company comparison features
-Integrate advanced visualization layers
-Deploy as a web application
+- Python
+- Pandas
+- GeoJSON / geospatial data
+- Excel dataset
+- Data analytics and visualization workflow
+
+---
+
+## 💡 Use Cases
+
+- Regional market research
+- High-growth firm analysis
+- Geographic business intelligence
+- Startup ecosystem exploration
+- Interactive company and region-based data analysis
+
+---
+
+## 🔮 Future Improvements
+
+- Add interactive dashboard support
+- Improve regional filtering and drill-down analysis
+- Add richer company comparison features
+- Integrate advanced visualization layers
+- Deploy as a web application
